@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!-- Camera is a Pixedelic free jQuery slideshow | Manuel Masia (designer and developer) --> 
+<html> 
+<head> 
+<link rel="icon" href="images/logo.ico">
+                <title>GSC DAIICT | GALLERY</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
+    <title>Camera | a free jQuery slideshow by Pixedelic</title> 
+    <meta name="description" content="Camera a free jQuery slideshow with many effects, transitions, adaptive layout, easy to customize, using canvas and mobile ready"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Styles
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    <link rel='stylesheet' id='camera-css'  href='../css/camera.css' type='text/css' media='all'> 
+    <style>
+		body
+		{
+			background-image:url('../images/slides/i.jpg');
+			background-attachment:fixed;
+			margin: auto;
+			padding: 0;
+			width:100%;
+			background-size: 100% auto;
+		}
+		
+		a {
+			color: #09f;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+		#back_to_camera {
+			clear: both;
+			display: block;
+			height: 80px;
+			line-height: 40px;
+			padding: 20px;
+		}
+		.fluid_container {
+			margin: 0 auto;
+			max-width: 1000px;
+			width: 90%;
+		}
+		
+		div.embossed
+		{
+		width:1100px;
+		height:185px;
+		background-color:grey;
+		border-radius:10px;
+		box-shadow: 4px 4px 4px #888888;
+		filter:alpha(opacity=75); opacity:.75;
+		margin-left: auto;
+					margin-right: auto;
+					
+					
+		}
+	</style>
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Scripts
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    
+    <script type='text/javascript' src='../scripts/jquery.min.js'></script>
+    <script type='text/javascript' src='../scripts/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='../scripts/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='../scripts/camera.min.js'></script> 
+    
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_1').camera({
+				thumbnails: true
+			});
+
+			jQuery('#camera_wrap_2').camera({
+				height: '400px',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: true
+			});
+		});
+	</script>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+
+<br>
+				<div class="embossed"  style="margin:0 auto;">
+				<img src="../images/slides/j.jpg" width=1100>
+				</div>
+				<br>
+<br>
+	
+	<div  style="width:1100px; margin:0 auto;">
+				<div class = "navbar navbar-inverse navbar-static-top">
+                        <div class = "container">
+                               	
+								
+                                
+                                <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+                                        <span class = "icon-bar"></span>
+                                        <span class = "icon-bar"></span>
+                                        <span class = "icon-bar"></span>
+                                </button>
+                               
+                                <div class = "collapse navbar-collapse navHeaderCollapse">
+                               
+                                        <ul class = "nav nav-pills navbar-left">
+                                       
+                                                <li><a href = "home.html"><font color=white>Home</font></a></li>
+                                                <li><a href = "event.html"><font color=white>Events</font></a></li>
+                                               
+												<li class = "active"><a href = "gallery.html"><font color=white>Gallery</font></a></li>
+                                                <li><a href = "team_members.html"><font color=white>Team Members</font></a></li>
+												<li><a href = "#"><font color=white>Contact Us</font></a></li>
+                                                
+                                        </ul>
+                               <ul class ="nav navbar-right"><li><a><font color="white">DA-IICT</font></a></li></ul>
+                                </div>
+                               
+                        </div>
+                </div>
+				</div>
+	
+	
+	
+	<div class="fluid_container">
+    	
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+            <div data-thumb="../images/slides/1.jpg" data-src="../images/slides/1.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
+                </div>
+            </div>
+            <div data-thumb="../images/slides/2.jpg" data-src="../images/slides/2.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    It uses a light version of jQuery mobile, <em>navigate the slides by swiping with your fingers</em>
+                </div>
+            </div>
+            <div data-thumb="../images/slides/3.jpg" data-src="../images/slides/3.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    <em>It's completely free</em> (even if a donation is appreciated)
+                </div>
+            </div>
+            <div data-thumb="../images/slides/4.jpg" data-src="../images/slides/4.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Camera slideshow provides many options <em>to customize your project</em> as more as possible
+                </div>
+            </div>
+            <div data-thumb="../images/slides/5.jpg" data-src="../images/slides/5.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    It supports captions, HTML elements and videos and <em>it's validated in HTML5</em> (<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.pixedelic.com%2Fplugins%2Fcamera%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0&amp;user-agent=W3C_Validator%2F1.2" target="_blank">have a look</a>)
+                </div>
+            </div>
+            <div data-thumb="../images/slides/thumbs/6.jpg" data-src="../images/slides/6.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			<div data-thumb="../images/slides/thumbs/7.jpg" data-src="../images/slides/7.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			<div data-thumb="../images/slides/thumbs/8.jpg" data-src="../images/slides/8.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			<div data-thumb="../images/slides/thumbs/9.jpg" data-src="../images/slides/9.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			<div data-thumb="../images/slides/thumbs/10.jpg" data-src="../images/slides/10.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			<div data-thumb="../images/slides/thumbs/11.jpg" data-src="../images/slides/11.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			<div data-thumb="../images/slides/thumbs/12.jpg" data-src="../images/slides/12.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			<div data-thumb="../images/slides/thumbs/13.jpg" data-src="../images/slides/13.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			<div data-thumb="../images/slides/thumbs/14.jpg" data-src="../images/slides/14.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			<div data-thumb="../images/slides/thumbs/15.jpg" data-src="../images/slides/15.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			<div data-thumb="../images/slides/thumbs/16.jpg" data-src="../images/slides/16.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			<div data-thumb="../images/slides/thumbs/17.jpg" data-src="../images/slides/17.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			<div data-thumb="../images/slides/thumbs/18.jpg" data-src="../images/slides/18.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			<div data-thumb="../images/slides/thumbs/19.jpg" data-src="../images/slides/19.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			<div data-thumb="../images/slides/thumbs/20.jpg" data-src="../images/slides/20.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+			
+        </div><!-- #camera_wrap_1 -->
+
+    	
+    </div><!-- .fluid_container -->
+    
+    <div style="clear:both; display:block; height:1200px"></div>
+</body> 
+</html>
